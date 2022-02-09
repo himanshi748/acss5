@@ -113,3 +113,10 @@ animation:highway 15s linear infinite;
     0%{transform:rotate(0deg);}
    100%{transform:rotate(360deg);}
 }
+.sun img{
+    float:right;
+    animation: sun 5s linear infinite;
+}
+@keyframes sun{
+    100%{transform:translateX(-90px);}
+}
