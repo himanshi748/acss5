@@ -1,0 +1,102 @@
+body{
+    background-color: yellow;
+}
+h1{font-size: 35px;
+    text-align: center;
+}
+li{display: flex;
+   justify-content: center;}
+   /* ol {list-style-type: circle;} */
+
+.box1{
+    border:2px solid black;
+    background-color: rgb(43, 14, 231);
+    width:100px;
+    height:100px;
+    margin:27px;
+    animation-name: box1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes box1{
+   
+    0%{transform: skew(0deg);}
+    50%{transform: skew(10deg,10deg);}
+    100%{transform: skew(-10deg,-10deg);} 
+        
+}
+.box2{
+    border:2px solid black;
+    background-color: rgb(235, 40, 218);
+    width:100px;
+    height:100px;
+    margin: 27px;
+    animation-name: box2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes box2{
+   
+    0%{transform: skew(0deg);}
+    50%{transform: skew(21deg,21deg);}
+    100%{transform: skew(-21deg,-21deg);} 
+        
+}
+.box3{
+    border:2px solid black;
+    background-color: rgb(68, 124, 245);
+    width:100px;
+    height:100px;
+    margin: 27px;
+    animation-name: box3;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+@keyframes box3{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+    }
+
+.box4{
+    width:100px;
+    height: 100px;
+    margin: 27px;
+    border: 2px solid black;
+}
+#box41{
+    background-color: slateblue;
+    animation-name: box41;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+@keyframes box41{
+    from{height: 60px;}
+    to{height: 120px;}
+}
+
+#box42{
+    background-color: red;
+    animation-name: box42;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+@keyframes box42{
+    from{width: 20px;}
+    to{width: 100px;}
+}
+
+#box43{
+    background-color: rgb(9, 255, 0);
+    animation-name: box43;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes box43{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(100deg);}
+    }
