@@ -53,7 +53,7 @@ animation:highway 15s linear infinite;
     position:absolute;
    bottom:100px;
  
-   animation:city 5s linear infinite;
+   animation:city 15s linear infinite;
 }
 @keyframes city{100%{
     transform:translateX(-1400px);
